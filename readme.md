@@ -8,6 +8,7 @@ via test macro so that we can call cargo test to run all the unit testing simult
 
 # Cross Compilation
 Developing appl for different platform from different platform i.e From windows we can cross compile to MAC,Linux without them.
+cargo add target aarch64-apple-darwin
 cargo build --target aarch64-apple-darwin
 
 # Calling external function from library.
@@ -22,4 +23,4 @@ Package manager and build tool.
 
 ```cargo test``` for testing.
 
-If you want to see the result without installing rust then go the target/release directory then open the terminal inside the directory.Just type the file name of executable in terminal and see the results.
+If you want to see the result without installing rust then go the target/release directory then double click the executable to see the results.Don't worry the thread running slowly to show the results.
