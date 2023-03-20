@@ -17,6 +17,10 @@ for example is_empty_older can't used in main.rs because they are private fifo m
 # Cargo 
 Package manager and build tool.
 
+# Gurantee You Get
+You can't pass any type to the FIFO queue but only the type that both implements Clone and Debug trait.No allocation is allocated as long as it doesn't exceed
+provided bytes i.e 20.
+
 ## Usage
 
 ``` cargo r or cargo run ``` to run the program inside a editor
